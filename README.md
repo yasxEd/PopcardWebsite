@@ -2,20 +2,25 @@
 
 A modern, responsive backoffice dashboard for managing a loyalty program, built with React, Redux Toolkit, and Material UI.
 
+<div align="center">
+
+  <img src="https://github.com/user-attachments/assets/51a89bad-2c0a-4366-b9c4-6fa12226fd29" alt="icon" width="200" />
+
+</div>
+
 ---
 
 ## 📸 Screenshots
 
-![Dashboard Screenshot](./docs/screenshot-dashboard.png)
-![Client Management Screenshot](./docs/screenshot-clients.png)
+<div align="center"><img width="1445" src="https://github.com/user-attachments/assets/075cacbc-523d-4365-8495-90d83c5beaa8" />
+<img width="1449"  src="https://github.com/user-attachments/assets/6ce772f4-6b89-423f-910e-862f1fbdeb36" />
+</div>
 
 ---
 
 ## 🎥 Video Demo
 
-[![Watch the demo](https://img.youtube.com/vi/VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_HERE)
-
-> _Replace `VIDEO_ID_HERE` with your uploaded demo video ID or link._
+[![Mobile App Demo]](https://github.com/user-attachments/assets/9cb00df9-a9ac-4162-b818-853c5f59e655)
 
 ---
 
@@ -83,8 +88,7 @@ mini-loyalty-system/
 - **features/**: Redux slices and async thunks
 - **components/**: Reusable UI components
 - **pages/**: Page components for routing
-- **utils/**: Utility functions and constants
-
+  
 ---
 
 ## 🗺️ System Flow Diagram
@@ -118,27 +122,11 @@ flowchart TD
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/YourFeature`)
-3. Make your changes
-4. Commit your changes (`git commit -m 'Add some feature'`)
-5. Push to the branch (`git push origin feature/YourFeature`)
-6. Open a pull request
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👀 Acknowledgments
+**Happy Coding**
 
-- [Create React App](https://github.com/facebook/create-react-app) for bootstrapping the project.
-- [Redux Toolkit](https://redux-toolkit.js.org/) for simplified Redux development.
-- [Material UI](https://mui.com/) for the beautiful UI components.
