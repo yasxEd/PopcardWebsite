@@ -13,19 +13,17 @@ A modern, responsive backoffice dashboard for managing a loyalty program, built 
 ## 📸 Screenshots
 
 <div align="center">
-  <img width="385" alt="Screenshot 2025-06-22 at 15 07 24" src="https://github.com/user-attachments/assets/14921888-373d-4eb6-b901-cd684b3181b8" />
+ <img width="1445" alt="Screenshot 2025-06-22 at 14 27 59" src="https://github.com/user-attachments/assets/8c112ca9-4423-4f30-83f5-480f41542860" />
+<img width="1446" alt="Screenshot 2025-06-22 at 14 28 14 copy" src="https://github.com/user-attachments/assets/e4fe2778-351a-412f-b47d-cdf0a712df5e" />
+<img width="1449" alt="457651166-6ce772f4-6b89-423f-910e-862f1fbdeb36" src="https://github.com/user-attachments/assets/3accec03-f9d7-4437-ab34-62cd9a559919" />
 
-  <img width="376" alt="Screenshot 2025-06-22 at 14 21 51" src="https://github.com/user-attachments/assets/4920c528-3525-4fb9-af48-4fd5e6723e5f" />
 </div>
 
 ---
 
 ## 🎥 Video Demo
 
-
-https://github.com/user-attachments/assets/7211e7ef-3cb6-4d9e-8db2-5e0149f71afa
-
-
+https://github.com/user-attachments/assets/f55809be-fcce-4894-b366-2d576e6f903c
 
 ---
 
