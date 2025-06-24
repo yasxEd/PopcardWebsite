@@ -1,70 +1,144 @@
-# Getting Started with Create React App
+# Mini Loyalty System – Web Backoffice
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive backoffice dashboard for managing a loyalty program, built with React, Redux Toolkit, and Material UI.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📸 Screenshots
 
-### `npm start`
+![Dashboard Screenshot](./docs/screenshot-dashboard.png)
+![Client Management Screenshot](./docs/screenshot-clients.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎥 Video Demo
 
-### `npm test`
+[![Watch the demo](https://img.youtube.com/vi/VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_HERE)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> _Replace `VIDEO_ID_HERE` with your uploaded demo video ID or link._
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📝 Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Authentication**: Secure login for admin users.
+- **Client Management**: Add, edit, delete, and search loyalty clients.
+- **Points & Visits**: Track points and store visits per client.
+- **Modern UI**: Responsive, animated, and accessible Material UI design.
+- **Persistent Data**: Client data is stored in browser localStorage for demo purposes.
+- **Demo Credentials**: Use the demo button on the login screen to auto-fill credentials.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Node.js (v16+ recommended)
+- npm
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone https://github.com/yourusername/mini-loyalty-system.git
+cd mini-loyalty-system/web-backoffice
+npm install
+```
 
-## Learn More
+### Running Locally
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### Code Splitting
+### Demo Login
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Email:** `admin@popcard.com`
+- **Password:** `popcard2025`
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🗂️ Project Structure
 
-### Making a Progressive Web App
+```
+mini-loyalty-system/
+├── web-backoffice/
+│   ├── public/
+│   └── src/
+│       ├── app/
+│       ├── features/
+│       ├── components/
+│       ├── pages/
+│       ├── utils/
+│       ├── index.js
+│       └── App.js
+└── README.md
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **public/**: Static files and index.html
+- **src/**: React components, pages, and Redux logic
+- **app/**: Redux store configuration
+- **features/**: Redux slices and async thunks
+- **components/**: Reusable UI components
+- **pages/**: Page components for routing
+- **utils/**: Utility functions and constants
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🗺️ System Flow Diagram
 
-### Deployment
+```mermaid
+flowchart TD
+    A[Login Page] -->|Auth Success| B[Dashboard]
+    B --> C[Clients List]
+    C --> D[Add/Edit Client Dialog]
+    C --> E[Delete Client Dialog]
+    C --> F[Client Table]
+    B --> G[Footer]
+    B --> H[Stats Cards]
+    subgraph Redux Store
+        I[authSlice]
+        J[clientsApi]
+    end
+    A <--> I
+    C <--> J
+    D <--> J
+    E <--> J
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📚 Learning Resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **React Documentation**: [React Docs](https://reactjs.org/docs/getting-started.html)
+- **Redux Toolkit Documentation**: [Redux Toolkit Docs](https://redux-toolkit.js.org/introduction/getting-started)
+- **Material UI Documentation**: [Material UI Docs](https://mui.com/getting-started/installation/)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/YourFeature`)
+3. Make your changes
+4. Commit your changes (`git commit -m 'Add some feature'`)
+5. Push to the branch (`git push origin feature/YourFeature`)
+6. Open a pull request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 👀 Acknowledgments
+
+- [Create React App](https://github.com/facebook/create-react-app) for bootstrapping the project.
+- [Redux Toolkit](https://redux-toolkit.js.org/) for simplified Redux development.
+- [Material UI](https://mui.com/) for the beautiful UI components.
